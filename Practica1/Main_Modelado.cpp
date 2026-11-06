@@ -213,7 +213,7 @@ int main() {
 
 		
 		//---------------------
-		glBindVertexArray(VAO);
+ 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		model = glm::mat4(1);
