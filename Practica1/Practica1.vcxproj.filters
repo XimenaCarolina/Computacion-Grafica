@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de origen\shader">
+      <UniqueIdentifier>{155e9756-3423-4b50-9dbb-1fb51f6c4729}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -21,14 +24,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\core.frag">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\shader</Filter>
     </None>
     <None Include="Shader\core.vs">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\shader</Filter>
+    </None>
+    <None Include="Shader\modelLoading.frag">
+      <Filter>Archivos de origen\shader</Filter>
+    </None>
+    <None Include="Shader\modelLoading.vs">
+      <Filter>Archivos de origen\shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Modelado_Jerarquico.cpp">
+    <ClCompile Include="Carga de Modelos.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
